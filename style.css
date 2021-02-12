@@ -1,0 +1,23 @@
+.jumbotron{
+    background-image: url(image/GunungBotak.jpg);
+    height: 250px;
+    text-align: left;
+    font-weight: bold;
+}
+.jumbotron .display-4{
+    color: whitesmoke;
+    font-size: 50px;
+}
+.jumbotron p{
+    color: black;
+    text-align: right;
+    font-weight: 350;
+}
+.jumbotron .btn{
+    font-size: small;
+    margin-left: 1100px;
+}
+.jumbotron .jumbotron-fluid{
+    color: white;
+
+}

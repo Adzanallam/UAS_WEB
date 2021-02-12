@@ -1,0 +1,68 @@
+.body{
+    margin-bottom: 0px;
+    padding: 0;
+    background: url(image/GunungBotak.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+#login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px;
+    transform: translate(-50%,-50%);
+}
+.box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-primary[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 225px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background: #1c8adb;
+}
+.btn-primary[type="submit"]:hover,
+.btn-primary[type="submit"]:focus{
+    background: #2d862d;
+    transition: 0.2s ease;
+}
